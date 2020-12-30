@@ -28,9 +28,8 @@ public class Book {
 		super();
 	}
 
-	public Book(long id, String name, String description, boolean sold) {
+	public Book(String name, String description, boolean sold) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.sold = sold;
